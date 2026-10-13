@@ -131,3 +131,37 @@ Across the nine retrieval–answer combinations, Mistral-Large retrieval + Mistr
 However, near-optimal performance could be achieved at lower inference cost. GPT-4o-mini retrieval + Mistral-Large answer generation achieved a mean combined quality of approximately 0.806, representing about 99.3% of the best-performing configuration's quality while reducing mean pipeline cost by approximately 35.6%.
 
 ![Primate Welfare Cost Performance](figure/primate_welfare/overall_primate_welfare_performance.png)
+
+This demonstrates that selecting different models for retrieval and answer generation can provide a more favourable cost–performance trade-off than simply using the highest-performing model for both stages.
+
+## Cross-Domain Performance
+
+The same-model configurations evaluated across both datasets maintained the same relative ranking between MetaBeeAI and Primate Welfare.
+
+However, absolute performance was lower on the Primate Welfare dataset for all three models.
+
+These results suggest that relative model performance may transfer between biological domains, while absolute performance remains dependent on the characteristics of the scientific literature and questions being evaluated.
+
+## Statistical Analysis
+
+The relationship between inference cost and combined quality was evaluated using Spearman's rank correlation and linear regression.
+
+For the Primate Welfare benchmark, model cost showed a strong positive association with performance:
+
+
+Spearman's ρ = 0.900
+
+p < 0.001
+
+R² = 0.785
+
+
+The relationship was weaker in the MetaBeeAI benchmark, suggesting that increasing model cost does not produce the same performance gains across every dataset.
+
+## Key Takeaways
+
+This project demonstrates that RAG performance depends on the interaction between retrieval and answer-generation models rather than solely on the choice of a single LLM.
+
+The experiments also highlight an important practical trade-off: the configuration producing the highest absolute quality is not necessarily the most attractive choice when inference cost is considered. Near-optimal performance can sometimes be achieved using a less expensive retrieval model paired with a stronger answer-generation model.
+
+More broadly, the cross-domain evaluation shows the importance of benchmarking RAG configurations on domain-specific scientific data rather than assuming that performance will transfer unchanged between domains.
