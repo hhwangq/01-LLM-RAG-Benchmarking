@@ -165,3 +165,7 @@ This project demonstrates that RAG performance depends on the interaction betwee
 The experiments also highlight an important practical trade-off: the configuration producing the highest absolute quality is not necessarily the most attractive choice when inference cost is considered. Near-optimal performance can sometimes be achieved using a less expensive retrieval model paired with a stronger answer-generation model.
 
 More broadly, the cross-domain evaluation shows the importance of benchmarking RAG configurations on domain-specific scientific data rather than assuming that performance will transfer unchanged between domains.
+
+## Note 
+Due to copyrights of scientific papers used in this dissertation, I cannot provide any data related with analysis. Please refer to the original work of MetaBee AI pipeline. 
+
