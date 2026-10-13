@@ -122,7 +122,7 @@ GPT-4o achieved the highest overall combined quality among the six models evalua
 
 Performance also varied substantially between question types. Bee-species questions produced the strongest overall performance, while additional-stressor questions were particularly challenging because they tested whether models could correctly recognise when relevant information was absent.
 
-![MetaBeeAI Model Performance](figure/overall_metabeeai_performance.png)
+![MetaBeeAI Model Performance](figure/metabeeai/overall_metabeeai_performance.png)
 
 ### Primate Welfare Benchmark
 
@@ -130,4 +130,4 @@ Across the nine retrieval–answer combinations, Mistral-Large retrieval + Mistr
 
 However, near-optimal performance could be achieved at lower inference cost. GPT-4o-mini retrieval + Mistral-Large answer generation achieved a mean combined quality of approximately 0.806, representing about 99.3% of the best-performing configuration's quality while reducing mean pipeline cost by approximately 35.6%.
 
-![Primate Welfare Cost Performance](figure/overall_primate_welfare_performance.png)
+![Primate Welfare Cost Performance](figure/primate_welfare/overall_primate_welfare_performance.png)
