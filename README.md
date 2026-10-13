@@ -36,30 +36,7 @@ The overall workflow is:
 
 ___________________________
 
-Scientific Literature
-
-        →
-        
-   Text Chunks
-   
-        →
-        
- Retrieval Model
- 
-        →
-        
-Relevant Context
-
-        →
-   Answer Model
-   
-        →
-        
-Generated Answer
-
-        →
-        
-     Evaluation
+Scientific Literature → Text Chunks → Retrieval Model → Relevant Context → Answer Model → Generated Answer → Evaluation
 ___________________________
 
 
