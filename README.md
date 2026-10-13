@@ -1,6 +1,6 @@
 # 01-LLM-RAG-Benchmarking
 
-### Overview
+## Overview
 
 This project evaluates the performance and cost-efficiency of Large Language Models (LLMs) used within a Retrieval-Augmented Generation (RAG) pipeline for scientific question answering.
 
@@ -9,7 +9,7 @@ The study evaluates different combinations of LLMs for information retrieval and
 This work was completed as part of my MSc Artificial Intelligence in Biosciences dissertation at Queen Mary University of London.
 
 
-### Objectives
+## Objectives
 
 The project investigated:
 
@@ -24,7 +24,7 @@ The project investigated:
 - Whether model performance varies between different scientific question types.
 
 
-### RAG Pipeline
+## RAG Pipeline
 
 The system separates the question-answering process into two main stages:
 
@@ -52,9 +52,9 @@ Generated Answer
 ___________________________
 
 
-### Datasets
+## Datasets
 
-## 1. MetaBeeAI — Bee Toxicology
+### 1. MetaBeeAI — Bee Toxicology
 
 The first benchmark evaluated scientific question answering using literature relating to bee toxicology.
 
@@ -80,7 +80,7 @@ The three models selected from this benchmark for further evaluation were:
 
 
 
-## 2. Primate Welfare
+### 2. Primate Welfare
 
 The second benchmark tested whether findings from MetaBeeAI transferred to a different biological domain.
 
@@ -96,7 +96,7 @@ The three selected LLMs were evaluated in a 3 × 3 retrieval–answer configurat
 
 
 
-### Evaluation Metrics
+## Evaluation Metrics
 
 Five complementary metrics were used to evaluate different stages of the RAG pipeline.
 
@@ -126,9 +126,9 @@ _____________________
 Inference costs were calculated separately for the retrieval and answer stages using token consumption and model-specific API pricing.
 
 
-### Key Results
+## Key Results
 
-## MetaBeeAI Benchmark
+### MetaBeeAI Benchmark
 
 GPT-4o achieved the highest overall combined quality among the six models evaluated.
 
