@@ -88,17 +88,13 @@ The three selected LLMs were evaluated in a 3 × 3 retrieval–answer configurat
 
 Five complementary metrics were used to evaluate different stages of the RAG pipeline.
 
-Pipeline component                    Metric                    Purpose
-
-Retrieval                      Contextual Precision            Measures whether relevant information is prioritised within retrieved context
-
-Retrieval                      Contextual Recall               Measures whether the required information was successfully retrieved
-
-Generation                     Faithfulness                    Measures whether generated claims are supported by retrieved context
-
-Generation                     G-Eval Accuracy                 Measures factual correctness against reference answers
-
-Generation                     G-Eval Completeness             Measures whether the generated response contains the required information
+| Pipeline Component | Metric | Purpose |
+|---|---|---|
+| Retrieval | Contextual Precision | Measures whether relevant information is prioritised within the retrieved context |
+| Retrieval | Contextual Recall | Measures whether the required information was successfully retrieved |
+| Generation | Faithfulness | Measures whether generated claims are supported by the retrieved context |
+| Generation | G-Eval Accuracy | Measures factual correctness against reference answers |
+| Generation | G-Eval Completeness | Measures whether the generated response contains the required information |
 
 
 A combined quality score was calculated to provide an overall measure of pipeline performance.
