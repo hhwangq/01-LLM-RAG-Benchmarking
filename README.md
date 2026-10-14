@@ -1,4 +1,4 @@
-![Back to main page](https://github.com/hhwangq/Portfolio)
+[Back to main page](https://github.com/hhwangq/Portfolio)
 
 # 01-LLM-RAG-Benchmarking
 
